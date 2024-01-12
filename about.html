@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/logo1.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-minus" onclick="showMenu()"></i>
+            </nav>
+                <h1>About us</h1>
+        </section>
+        <!------------about us content------------->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the world's largest University</h1>
+                    <p>A paragraph is a collection of words combined together to make a 
+                        longer unit than a sentence. It's a set of sentences that are well-organized and coherent,
+                         and they're all about the same thing. Several sentences often make up a paragraph. 
+                        There are normally three to eight sentences in a paragraph. </p>
+                        <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+            <div class="about-col">
+                <img src="image/about.jpg">
+            </div>
+            </div>
+
+        </section>
+
+        
+        
+        <!---------------footer-------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>A testimonial is an endorsement by someone who has had firsthand experience with 
+               <br> a product or service and is willing to share their thoughts publicly.</p>
+
+               <div class="icons">
+                <i class="fa fa-facebook-square" ></i>
+                <i class="fa fa-twitter-square" ></i>
+                <i class="fa fa-instagram-square" ></i>
+                <i class="fa fa-linkedin-square" ></i>
+               
+               </div>
+               <p>Made with  <i class="fa fa-heart-o" ></i>by Neha Bhandare
+               </p>
+        </section>
+        <!------javascript  for toggle menu------>
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            function showMenu(){
+                navlinks.style.right="0";
+            }
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+        </script>
+    </body>
+
+</html>

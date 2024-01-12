@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/logo1.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-minus" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+        <!--------course-------->
+        <section class="course">
+            <h1>Courses we offer</h1>
+            <p>Online classes have existed in our society for some time now, but the importance of
+             online classes was fully realised only during the lockdowns on account of the pandemic. 
+             The online classes were very helpful to all students, teachers, and institutions. They are also
+             beneficial to students who wish to pursue long-distance courses.</p>
+            
+             <div class="row">
+                <div class="course-col" >
+                    <h3>Intermediate</h3>
+                    <p>Even with the advances in science and technology, many people lagged behind and were not able to cope with the pace of growth in many places around the world.
+                         Most were unaware of the benefits of online education or of the existence of online classes in various countries. 
+                        Just like every coin has two sides, there are two sides to online classes as well.</p>
+
+                </div>
+
+                <div class="course-col" >
+                    <h3>Degree</h3>
+                    <p>Even with the advances in science and technology, many people lagged behind and were not able to cope with the pace of growth in many places around the world.
+                         Most were unaware of the benefits of online education or of the existence of online classes in various countries. 
+                        Just like every coin has two sides, there are two sides to online classes as well.</p>
+                        
+                </div>
+
+                <div class="course-col" >
+                    <h3>Post Graduation</h3>
+                    <p>Even with the advances in science and technology, many people lagged behind and were not able to cope with the pace of growth in many places around the world.
+                         Most were unaware of the benefits of online education or of the existence of online classes in various countries. 
+                        Just like every coin has two sides, there are two sides to online classes as well.</p>
+                        
+                </div>
+             </div>
+        </section>
+        <!-----------facilities-->
+        <section class="facilities">
+            <h1>Our facilities</h1>
+            <p>The college is situated in the heart of the city. Apart from being the Garden City, 
+                Bangalore is now the natural choice and preferred destination for students from 
+                different parts of the country to pursue professional education, be it in Engineering, </p>
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="image/library.png">
+                        <h3>World class library</h3>
+                        <p>The college is situated in the heart of the city. 
+                            Apart from being the Garden City, Bangalore is now the natural 
+                            choice and preferred destination for students from different parts of the country to pursue professional
+                             education, be it in Engineering, Medicine or any other field. </p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="image/basketball.png">
+                        <h3>largest play ground</h3>
+                        <p>The college is situated in the heart of the city. 
+                            Apart from being the Garden City, Bangalore is now the natural 
+                            choice and preferred destination for students from different parts of the country to pursue professional
+                             education, be it in Engineering, Medicine or any other field. </p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="image/cafeteria.png">
+                        <h3>Tasty and healthy food</h3>
+                        <p>The college is situated in the heart of the city. 
+                            Apart from being the Garden City, Bangalore is now the natural 
+                            choice and preferred destination for students from different parts of the country to pursue professional
+                             education, be it in Engineering, Medicine or any other field. </p>
+                    </div>
+                   
+                </div>
+        </section>
+
+        
+        
+        <!---------------footer-------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>A testimonial is an endorsement by someone who has had firsthand experience with 
+               <br> a product or service and is willing to share their thoughts publicly.</p>
+
+               <div class="icons">
+                <i class="fa fa-facebook-square" ></i>
+                <i class="fa fa-twitter-square" ></i>
+                <i class="fa fa-instagram-square" ></i>
+                <i class="fa fa-linkedin-square" ></i>
+               
+               </div>
+               <p>Made with  <i class="fa fa-heart-o" ></i>by Neha Bhandare
+               </p>
+        </section>
+        <!------javascript  for toggle menu------>
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            function showMenu(){
+                navlinks.style.right="0";
+            }
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+        </script>
+    </body>
+
+</html>
